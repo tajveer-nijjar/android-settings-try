@@ -8,8 +8,11 @@ using Android.Content;
 using Android.OS;
 using Android.Preferences;
 using Android.Runtime;
-using Android.Support.V7.App;
-using Android.Support.V7.Preferences;
+using Google.Android.Material;
+using AndroidX.AppCompat.App;
+//using Android.Support.V7.App;
+using AndroidX.Preference;
+//using Android.Support.V7.Preferences;
 using Android.Views;
 using Android.Widget;
 
