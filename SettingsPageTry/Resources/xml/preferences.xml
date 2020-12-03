@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="https://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<SwitchPreferenceCompat
+		app:key="notifications"
+		app:title="Enable message notifications"/>
+
+	<Preference
+		app:key="feedback"
+		app:title="Send feedback"
+		app:summary="Report technical issues or suggest new features"/>
+
+	<CheckBoxPreference
+		app:key="checkbox"
+		app:summary="Tap to check if on or off"
+		app:title="Checkbox Preference" />
+
+	<EditTextPreference
+		app:dialogTitle="Enter a text"
+		app:key="text"
+		app:summary="Click to show a text entry dialog"
+		app:title="EditText Preference" />
+
+	<ListPreference
+		app:dialogTitle="Select duration"
+		app:entries="@array/settings_list_preference_titles"
+		app:entryValues="@array/settings_list_preference_values"
+		app:key="list"
+		app:summary="Click to show a list to choose from"
+		app:title="List Preference" />
+
+</PreferenceScreen>
